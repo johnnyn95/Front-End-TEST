@@ -6,14 +6,26 @@ ul {
     list-style-type: none;
 }
 
-#logo .header {
-    height: 10%;
-    width: 10%;
+div #logo {
+    position: relative;
+    top: 0em;
+    left: 0em;
+    width: 3em;
+    height: 3em;
+    border: solid black;
+}
+
+img,
+#logo {
+    width: 3em;
+    height: 3em;
 }
 
 div,
-#welcome {
-    /*position: top 100px;*/
+#nav-bar {
+    position: absolute;
+    top: 0em;
+    left: 2em;
     color: black;
     font-size: 25px;
 }
