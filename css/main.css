@@ -1,31 +1,66 @@
-body {
-    background-color: darkgrey;
+html {
+    background-color: grey;
 }
 
-ul {
-    list-style-type: none;
+a {
+    text-decoration: none;
 }
 
-div #logo {
-    position: relative;
-    top: 0em;
-    left: 0em;
-    width: 3em;
-    height: 3em;
-    border: solid black;
-}
-
-img,
-#logo {
-    width: 3em;
-    height: 3em;
-}
-
-div,
-#nav-bar {
+div#menu-popup {
     position: absolute;
     top: 0em;
-    left: 2em;
-    color: black;
-    font-size: 25px;
+    left: 0em;
+    width: 20em;
+    height: 100%;
+    background-color: darkgray;
+    display: none;
+}
+
+ul#convertions {
+    position: relative;
+    left: 4em;
+    top: 1em;
+}
+
+ul#convertions ul#temperature {
+    display: none;
+    position: relative;
+    left: -2em;
+}
+
+ul#convertions ul#weigth {
+    display: none;
+}
+
+div#header {
+    background-color: lightgray;
+    width: 100%;
+    height: 5em;
+}
+
+div#logo {
+    width: 5em;
+    height: 5em;
+    background-color: cadetblue;
+}
+
+div#logo a img {
+    width: 5em;
+    height: 5em;
+}
+
+div#nav-bar {
+    position: relative;
+    top: -5em;
+    left: 5em;
+    width: 100%;
+    height: 5em;
+    background-color: lightblue;
+}
+
+div#convertions {
+    position: relative;
+    width: 15em;
+    height: 20em;
+    background-color: red;
 }
