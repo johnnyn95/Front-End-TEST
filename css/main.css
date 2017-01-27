@@ -1,10 +1,10 @@
 body {
-    background-color: mediumslateblue;
+    background-color: darkgrey;
 }
 
 div,
 #welcome {
     /*position: top 100px;*/
-    color: red;
-    font-size: 100px;
+    color: black;
+    font-size: 25px;
 }
