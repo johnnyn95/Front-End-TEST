@@ -2,6 +2,15 @@ body {
     background-color: darkgrey;
 }
 
+ul {
+    list-style-type: none;
+}
+
+#logo .header {
+    height: 10%;
+    width: 10%;
+}
+
 div,
 #welcome {
     /*position: top 100px;*/
