@@ -1,0 +1,10 @@
+body {
+    background-color: mediumslateblue;
+}
+
+div,
+#welcome {
+    /*position: top 100px;*/
+    color: red;
+    font-size: 100px;
+}
