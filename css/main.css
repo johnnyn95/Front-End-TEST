@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 div#menu-popup {
     position: absolute;
     top: 0em;
@@ -60,7 +64,17 @@ div#nav-bar {
 
 div#convertions {
     position: relative;
+    padding: 1em;
     width: 15em;
-    height: 20em;
-    background-color: red;
+    height: 21em;
+    /*
+    background-color: lightblue;
+    border-bottom: solid 0.25em black;*/
+}
+
+div#convertions a {
+    position: relative;
+    top: 1em;
+    left: 2em;
+    font-size: 1.5em;
 }
