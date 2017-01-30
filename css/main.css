@@ -74,4 +74,11 @@ div#convertions>a {
     font-size: 1.5em;
 }
 
-*/
+#animate {
+    width: 20em;
+    height: 20em;
+    position: relative;
+    top: 10em;
+    left: 40em;
+    opacity: 0.1;
+}

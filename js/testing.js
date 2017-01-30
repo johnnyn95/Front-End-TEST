@@ -6,10 +6,13 @@ $(document).ready(function() {
         $(this).css({ "text-shadow": "none" });
     })
     $("div#logo").hover(function() {
-        $("div#menu-popup").fadeIn("slow"); //css("display", "block");
+        $("div#menu-popup").fadeIn();
+        $("#animate").animate({ left: "-10em", opacity: '0.7' }, "fast");
+
     })
     $("div#menu-popup").mouseout(function() {
-        $(this).fadeOut("slow"); //css("display", "none");
+        $(this).fadeOut(); //css("display", "none");
+        $("#animate").animate({ left: "35em", opacity: '0.2' }, "fast");
     });
 
     $("div#convertions").hover(function() {
