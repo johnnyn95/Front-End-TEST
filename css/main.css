@@ -46,27 +46,32 @@ div#logo a img {
     height: 5em;
 }
 
-
-/*
 div#convertions {
     position: relative;
-    padding: 1em;
-    width: 15em;
-    height: 21em;
-    /*
+    width: 13em;
+    height: 2em;
     background-color: lightblue;
-    border-bottom: solid 0.25em black;
 }
 
-div#convertions ul {
+div#convertions ul#temperature {
     display: none;
-    padding: 0.4em;
+    padding: 0.2em;
+    position: relative;
+    left: 2.5em;
 }
 
-div#convertions a {
+div#convertions ul#weigth {
+    display: none;
+    padding: 0.2em;
     position: relative;
-    top: 1em;
+    left: 2.5em;
+}
+
+div#convertions>a {
+    position: relative;
+    top: 0.2em;
     left: 2em;
     font-size: 1.5em;
-} 
+}
+
 */
