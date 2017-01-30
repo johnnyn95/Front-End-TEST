@@ -6,11 +6,11 @@ $("div#menu-popup").mouseout(function() {
 });
 
 
-$("div#convertions").click(function() {
+$("div#convertions").hover(function() {
     $("div#convertions ul#temperature").css("display", "block");
     $("div#convertions ul#weigth").css("display", "block");
-    $("div#convertions").css({ "background-color": "lightblue", "border-bottom": "solid 0.25em black" });
+    $("div#convertions").css({ "background-color": "lightblue", "border-bottom": "solid 0.25em black", "width": "15em" });
 });
-$("div#convertions").mouseout(function() {
+$(".nav-bar").mouseout(function() {
     $("div#convertions ul").css("display", "none");
 });

@@ -20,24 +20,9 @@ div#menu-popup {
     display: none;
 }
 
-ul#convertions {
-    position: relative;
-    left: 4em;
-    top: 1em;
-}
-
-ul#convertions ul#temperature {
-    display: none;
-    position: relative;
-    left: -2em;
-}
-
-ul#convertions ul#weigth {
-    display: none;
-}
-
 div#header {
-    background-color: lightgray;
+    /*background-color: lightgray;*/
+    margin: 0 auto;
     width: 100%;
     height: 5em;
 }
@@ -45,7 +30,7 @@ div#header {
 div#logo {
     width: 5em;
     height: 5em;
-    background-color: cadetblue;
+    /*background-color: cadetblue;*/
 }
 
 div#logo a img {
@@ -53,15 +38,16 @@ div#logo a img {
     height: 5em;
 }
 
-div#nav-bar {
+.nav-bar {
     position: relative;
-    top: -5em;
+    top: -3.5em;
     left: 5em;
     width: 100%;
     height: 5em;
-    background-color: lightblue;
 }
 
+
+/*
 div#convertions {
     position: relative;
     padding: 1em;
@@ -69,7 +55,12 @@ div#convertions {
     height: 21em;
     /*
     background-color: lightblue;
-    border-bottom: solid 0.25em black;*/
+    border-bottom: solid 0.25em black;
+}
+
+div#convertions ul {
+    display: none;
+    padding: 0.4em;
 }
 
 div#convertions a {
@@ -77,4 +68,5 @@ div#convertions a {
     top: 1em;
     left: 2em;
     font-size: 1.5em;
-}
+} 
+*/
