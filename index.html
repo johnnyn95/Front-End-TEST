@@ -1,43 +1,52 @@
-<!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <title>testing</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-    <div id="header">
-        <div id="logo">
-            <a href="#">
-                <img src="imgs/icon.png" />
-            </a>
-        </div>
-        <div class="nav-bar">
-            <div id="convertions"><a href="#">Convertions</a>
-                <ul id="temperature"><a href="#">Temperature</a>
-                    <li id="Celsius"><a href="#">Celsius</a></li>
-                    <li id="Fahrenheit"><a href="#">Fahrenheit</a></li>
-                    <li id="Kelvin"><a href="#">Kelvin</a></li>
-                </ul>
-                <ul id="weigth"><a href="#">Weigth</a>
-                    <li id="Pounds"><a href="#">Pounds</a></li>
-                    <li id="Kilograms"><a href="#">Kilograms</a></li>
-                    <li id="Ounces"><a href="#">Ounces</a></li>
-                    <li id="Stones"><a href="#">Stones</a></li>
+    <div class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <!-- LOGO -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Convertm³</a>
+            </div>
+            <!-- NAVBAR -->
+            <div>
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Convertions <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <!-- item 1 submenu -->
+                            <li class="dropdown-submenu"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Weigth <span class="caret"></span></a>
+                                <!-- item 1 subitems -->
+                                <li><a href="#">Pounds</a></li>
+                                <li><a href="#">Kilograms</a></li>
+                                <li><a href="#">Ounces</a></li>
+                                <li><a href="#">Stones</a></li>
+                            </li>
+                            <!-- item 2 submenu -->
+                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Length <span class="caret"></span></a>
+                                <li class="dropdown-submenu">
+                                    <!-- item 2 subitems -->
+                                    <li><a href="#">test</a></li>
+                                </li>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Calculators</a></li>
+                    <li><a href="#">Info</a></li>
                 </ul>
             </div>
         </div>
     </div>
-    <div id="menu-popup">
-    </div>
 
-    <div id="animate"><img src="imgs/icon.png" /></div>
-
-    <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/testing.js"></script>
 </body>
 
