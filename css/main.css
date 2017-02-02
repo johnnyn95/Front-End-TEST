@@ -2,9 +2,10 @@
     display: flex;
     align-items: center;
     position: relative;
-    left: -25px;
+    left: -20px;
 }
 
 .navbar-brand>img {
-    width: 70px;
+    width: 50px;
+    margin: 10px;
 }
