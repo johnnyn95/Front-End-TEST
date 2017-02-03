@@ -1,9 +1,9 @@
 $(document).ready(function() {
-    $("#logo").hover(function() {
-        $("#logo>img").attr("src", "/imgs/logo-cube.png");
+    $("#logo *").hover(function() {
+        $("#logo>a>img").attr("src", "/imgs/logo-cube.png");
     });
-    $("#logo").mouseout(function() {
-        $("#logo>img").attr("src", "/imgs/logo-cube-gray.png");
+    $("#logo *").mouseout(function() {
+        $("#logo>a>img").attr("src", "/imgs/logo-cube-gray.png");
     });
 
     $(".page-header  *").hover(function() {
